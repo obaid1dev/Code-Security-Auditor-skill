@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+findings.json
+*.skill
+.DS_Store
+.env

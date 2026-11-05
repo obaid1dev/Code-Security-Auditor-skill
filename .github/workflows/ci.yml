@@ -1,0 +1,28 @@
+name: CI
+on:
+  push: { branches: [main] }
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "${{ matrix.python }}" }
+      - run: python -m unittest discover -s tests -v
+      - name: Validate SKILL.md frontmatter
+        run: |
+          python - <<'PY'
+          import re,sys
+          t=open("code-security-auditor/SKILL.md").read()
+          m=re.match(r"---\nname: (.+)\ndescription: (.+)\n---",t)
+          assert m, "bad frontmatter"
+          assert m.group(1)=="code-security-auditor"
+          assert len(m.group(2))<=1024, len(m.group(2))
+          print("frontmatter ok")
+          PY
