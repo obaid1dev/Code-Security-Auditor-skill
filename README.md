@@ -45,7 +45,7 @@ See a real example of the output: [`examples/sample-report.md`](examples/sample-
 
 ### Claude Code
 ```bash
-git clone https://github.com/YOUR-USERNAME/code-security-auditor-skill.git
+git clone https://github.com/obaid1dev/Code-Security-Auditor-skill.git
 cp -r code-security-auditor-skill/code-security-auditor ~/.claude/skills/        # all projects
 # or, for a single project:
 cp -r code-security-auditor-skill/code-security-auditor .claude/skills/
