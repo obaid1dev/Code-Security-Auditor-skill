@@ -1,6 +1,6 @@
 # Code Security Auditor
 
-[![CI](https://github.com/YOUR-USERNAME/code-security-auditor-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USERNAME/code-security-auditor-skill/actions/workflows/ci.yml)
+[![CI](https://github.com/obaid1dev/code-security-auditor-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/obaid1dev/code-security-auditor-skill/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 An AI skill that works like a security engineer inside your workflow. It walks your whole codebase, finds vulnerabilities with the **exact file and line**, scores severity, applies **minimal, behavior-preserving patches**, verifies them, and hands you a clear **before/after audit report**.
