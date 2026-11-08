@@ -156,3 +156,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to add rules or stack checklists.
 ## License
 
 [MIT](LICENSE)
+
+
+
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/obaid1dev/code-security-auditor-skill?utm_source=readme&utm_medium=badge)
+
+
+[![Architecture diagram of obaid1dev/code-security-auditor-skill](https://gitdiagram.com/obaid1dev/code-security-auditor-skill/diagram.png)](https://gitdiagram.com/obaid1dev/code-security-auditor-skill?utm_source=readme&utm_medium=picture)
+
+
